@@ -60,19 +60,32 @@ button {
 button:hover {
     background-color: #bbb;
 }
-.container{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Supprimez le margin de 20px */
+    min-height: 100vh; /* Remplacez height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Important pour z-index */
+}
+
+.container {
     width: 60%;
-    margin: auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #aaa;}
+    box-shadow: 0 0 10px #aaa;
+    z-index: 1; /* Au-dessus de la vidéo */
+    margin: 20px auto; /* Centrage horizontal */
+}
+
 #background-video {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
-    z-index: -1;        
+    z-index: -1;
 }
