@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Vidéo en arrière-plan</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #background-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .contenu {
+      position: relative;
+      color: white;
+      text-align: center;
+      padding: 50px;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Vidéo de fond -->
+  <video autoplay muted loop playsinline id="background-video">
+  <source src="https://res.cloudinary.com/djedffjqw/video/upload/v1747359675/Cieling_Flames_4K_Motion_Background_Loop_fmil9h.mp4" type="video/mp4">
+</video>
+
+  <!-- Contenu par-dessus -->
+  <div class="contenu">
+BIENVENUE SUR MON SITE!!!
+  </div>
+
+</body>
+</html>

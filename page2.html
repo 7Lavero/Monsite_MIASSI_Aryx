@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Page2</title>
+    <style>
+        /* Style général */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        /* Vidéo en arrière-plan */
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* En-tête */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header img {
+            height: 60px;
+            width: auto;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Contenu principal */
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #FFD700;
+        }
+
+        a {
+            color: #00FFFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Vidéo en arrière-plan -->
+    <video autoplay muted loop playsinline id="background-video">
+  <source src="https://res.cloudinary.com/djedffjqw/video/upload/v1747359490/video_de_boucle_vert_dx7qib.mp4" type="video/mp4">
+</video>
+
+
+    <!-- En-tête avec logos et titre -->
+    <div class="header">
+        <a href="https://eneam.uac.bj/aboutus" target="_blank" rel="noopener noreferrer">
+            <img src="images/ENEAM.jpg" alt="Logo ENEAM">
+        </a>
+
+        <div class="header-title">BIENVENUE SUR MON SITE <a href="page2.html#x">MIASSI Aryx</a></div>
+
+        <a href="https://www.etudiant.uac.bj/" target="_blank" rel="noopener noreferrer">
+            <img src="images/logoUAC.png" alt="Logo UAC">
+        </a>
+    </div>
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <section>
+            <h2>I- ÉTAT CIVIL</h2>
+            <p>
+                NOM: MIASSI<br/>
+                PRÉNOMS: Aryx M. P.<br/>
+                ÂGE: 18 ans<br/>
+                Mail: miassiaryxmar@gmail.com<br/>
+                <a href="page1.html#ko">Ma photo (je n'en prend pas beaucoup)</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>II- MES DIPLÔMES</h2>
+            <ul>
+                <li>CEP</li>
+                <li>BEPC</li>
+                <li>BAC</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>III- DESCRIPTION DE MA PERSONNE</h2>
+            <p id="x">
+                Le clavier comme instrument, l'écran comme fenêtre sur l'univers. Je passe mes nuits à explorer les confins du web comme d'autres arpentent des forêts inconnues. Mes doigts balayent le clavier dans l'optique de la connaissance, tandis que mes oreilles s'ornent d'écouteurs pour la musique.
+                <br/>
+                Je collectionne les découvertes numériques autant que possible des reliques et parle aux sites que je découvre comme à des vieux amis. 
+                <br/>
+                Mon paradoxe : Plus j'apprends, plus je réalise que la seule vraie connaissance, c'est de savoir qu'on ne sait rien. Du coup je télécharge encore plus de PDF.
+            </p>
+        </section>
+    </div>
+</body>
+</html>

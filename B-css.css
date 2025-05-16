@@ -1,0 +1,6 @@
+body {
+    background: white url('images/v617batch2-bb-02-technology.jpg') no-repeat fixed right center / cover;
+    min-height: 100vh; /* Prend toute la hauteur de l'écran */
+    margin: 0; /* Supprime les marges par défaut */
+    background-attachment:scroll  }
+a{color:white ;}

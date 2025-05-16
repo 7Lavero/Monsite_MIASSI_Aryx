@@ -1,0 +1,60 @@
+.pas_de_retrait 
+{ 
+list-style-position: inside; 
+} 
+.retrait 
+{list-style-position: 
+outside;}
+/* Listes à puces non ordonnées */ 
+ 
+.cercle 
+{ 
+list-style-type: circle; 
+} 
+.carre 
+{ 
+list-style-type: square; 
+} 
+.rien 
+{ 
+list-style-type: none; 
+}
+.commence_a_zero 
+{ 
+list-style-type: decimal-leading-zero; 
+} 
+.lettres_minuscules 
+{ 
+list-style-type: lower-alpha; 
+} 
+.chiffres_romains 
+{ 
+list-style-type: upper-roman; 
+} 
+.lettres_grecques 
+{ 
+list-style-type: lower-greek; 
+} 
+ 
+
+h2 
+{ 
+text-indent: 20px; 
+font-family: Arial, Verdana, "Times New Roman", serif; 
+} 
+em 
+{ 
+background-color: yellow;
+color: black; 
+} 
+strong 
+{ 
+color: red; 
+}
+
+body {
+    color: rgb(244, 240, 240);
+    background: url('images/v617batch2-bb-02-technology.jpg') no-repeat fixed right center / cover;
+    min-height: 100vh; /* Prend toute la hauteur de l'écran */
+    margin: 0; /* Supprime les marges par défaut */
+    background-attachment:scroll  }

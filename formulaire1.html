@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire html</title>
+    <style type="text/css">
+       @import url(formulaire1.css);
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Formulaire d'entretien</h1>
+
+    <fieldset>
+        <legend>État Civil</legend>
+        <label>Matricule: <input type="text"></label>
+        <label>Nom: <input type="text"></label><br>
+
+        <label>Prénoms: <input type="text"></label>
+        <label>Sexe: <input type="text"></label><br>
+
+        <label>Date de naissance: <input type="date"></label>
+        <label>Âge: <input type="number"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mes Diplômes</legend>
+        <label>CEP <input type="checkbox"></label>
+        <label>BEPC <input type="checkbox"></label>
+        <label>BAC <input type="checkbox"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Expérience</legend>
+        <label><input type="radio" name="experience"> Expert IT</label>
+        <label><input type="radio" name="experience"> Expert Bavardage</label>
+    </fieldset>
+
+    <div class="boutons">
+        <button type="submit">Envoyer</button>
+        <button type="reset">Effacer</button>
+        <button type="button" onclick="window.close()">Quitter</button>
+    </div>
+ </div>
+
+ <video autoplay muted loop playsinline id="background-video">
+  <source src="https://res.cloudinary.com/djedffjqw/video/upload/v1747359344/stockfootage0685_rauzqa.mp4" type="video/mp4">
+</video>
+
+
+</body>
+</html>

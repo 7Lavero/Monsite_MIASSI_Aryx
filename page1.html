@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voyons voir ce que ça va donner</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: transparent;
+            color: white; /* Texte blanc par défaut */
+        }
+
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 30%;
+            height: 20;
+        }
+
+        h1, h2, h3, h4, p, blockquote {
+            color:rgb(254, 254, 254); /* Assure que tous les textes sont bien en blanc */
+        }
+
+        #ko {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Vidéo en arrière-plan -->
+    <video autoplay muted loop playsinline id="background-video">
+  <source src="https://res.cloudinary.com/djedffjqw/video/upload/v1747359522/Loop_ka3sr7.mp4" type="video/mp4">
+</video>
+
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <h1>BIENVENUE SUR NOTRE SITE !</h1>
+        <h2>Je me présente</h2>
+        <p>
+            Bonjour et bienvenue sur mon site !<br /> Je me nomme MIASSI Aryx.
+            Je suis né le 13/03/2007  et je suis etudiant à l'ENEAM.
+        </p>
+        <h2>Ce que je suis en train de faire</h2>
+        <p>
+            Ceci est mon premier test, et je suis vraiment heureux d’écrire ma première page web.
+            Je deviendrai certainement un grand Webmaster dans quelque temps.
+        </p>
+        <h3>Un peu d’histoire</h3>
+        <p>
+            POINT p<sub>1</sub> : <em>Le xhtml ?</em><br />
+            Le langage XHTML est le langage qui nous permet de créer des sites web en ce début de
+            XXI<sup>ème</sup> siècle.<br />
+            Avant, vers la fin du XX<sup>ème</sup>, on utilisait le langage HTML, qui disparaît aujourd'hui peu à
+            peu au profit de XHTML.
+        </p>
+        <p>
+            Vous souvenez-vous de la phrase célèbre qu'a prononcée Neil Armstrong en posant le premier pied
+            sur la Lune ? <q>C'est un petit pas pour l'Homme, un grand pas pour l'Humanité</q>. C'était un certain
+            20 Juillet 1969...
+        </p>
+
+        <h4>Le Corbeau et le Renard</h4>
+        <p>Voici ce qui est sans aucun doute une des plus connues fables de <em>Jean de La Fontaine</em> :</p>
+        <blockquote>
+            <p>
+                Maître Corbeau, sur un arbre perché,<br />
+                Tenait en son bec un fromage.<br />
+                Maître Renard, par l'odeur alléché,<br />
+                Lui tint à peu près ce langage :<br />
+                "Hé ! bonjour, Monsieur du Corbeau.<br />
+                Que vous êtes joli ! que vous me semblez beau !<br />
+                Sans mentir, si votre ramage<br />
+                Se rapporte à votre plumage,<br />
+                Vous êtes le Phénix des hôtes de ces bois."<br />
+                À ces mots le Corbeau ne se sent pas de joie ;<br />
+                Et pour montrer sa belle voix,<br />
+                Il ouvre un large bec, laisse tomber sa proie.<br />
+                Le Renard s'en saisit, et dit : "Mon bon Monsieur,<br />
+                Apprenez que tout flatteur<br />
+                Vit aux dépens de celui qui l'écoute :<br />
+                Cette leçon vaut bien un fromage, sans doute."<br />
+                Le Corbeau, honteux et confus,<br />
+                Jura, mais un peu tard, qu'on ne l'y prendrait plus.
+            </p>
+        </blockquote>
+
+        <p id="ko">
+            Voici une photo :<br />
+            <img src="images/MOI.jpeg"Ma photo/>
+        </p>
+    </div>
+</body>
+</html>

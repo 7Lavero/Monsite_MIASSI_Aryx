@@ -1,0 +1,54 @@
+/* Couleur générale du texte */
+body {
+    color: rgb(203, 214, 237);
+    text-align: center;
+    background-color: black;
+    font-family: 'Trebuchet MS', Times, Verdana;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    color: rgb(40, 176, 18);
+    text-decoration: underline;
+}
+
+/* Paragraphes */
+p {
+    font-size: 14px;
+}
+
+/* Classe pour texte en gras */
+.gras {
+    font-weight: bold;
+}
+
+/* Classe pour texte en italique */
+.italique {
+    font-style: italic;
+}
+
+/* Liens */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Interligne personnalisé */
+.interligne {
+    line-height: 2em;
+}
+
+/* Vidéo en arrière-plan */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
